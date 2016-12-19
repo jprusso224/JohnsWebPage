@@ -1,0 +1,95 @@
+/*
+* Custom Style Sheet
+* Author: John P Russo
+* Date Created: 12/18/16
+*/
+
+.container {
+  max-width: 800px;
+}
+
+.nav-bar{
+  border-width: thin;
+  border-style: solid;
+  background-color: #73ebe0;
+  border-color: #000000;
+  padding: 3% 3% 0% 10%;
+  position: relative;
+}
+.nav-item-list{
+  list-style-type: none;
+}
+.nav-item{
+  position: relative;
+  float: left;
+  margin-right: 10%;
+  padding: 1% 1% 1% 1%;
+  border-width: thin;
+  border-style: solid;
+  background-color: #6a8abf;
+}
+
+.pic-box {
+  border-width: thin;
+  border-style: solid;
+  background-color: #bf816a;
+  border-color: #000000;
+  padding-left: 10%;
+  position: relative;
+}
+
+.bio-box {
+  border-width: thin;
+  border-style: solid;
+  background-color: #41c719;
+  border-color: #000000;
+  padding-left: 10%;
+  position: relative;
+}
+
+.outer-space{
+  position: absolute;
+  left: -25%;
+  width: 150%;
+  height: 150%;
+  overflow: hidden;
+}
+
+.inner-space{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+}
+
+.body-box {
+  position: absolute;
+  width: 100%;
+}
+
+.body-box[id = "1"] {
+  background-color: #1988c7;
+}
+.body-box[id = "2"] {
+  background-color: #c719bb;
+}
+.body-box[id = "3"] {
+  background-color: #bec719;
+}
+.body-box[id = "4"] {
+  background-color: #40347e;
+}
+.body-box[id = "5"] {
+  background-color: #c71929;
+}
+/* End body box stuff */
+
+/* Larger than phone */
+@media (min-width: 550px) {
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+}
